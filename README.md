@@ -67,33 +67,9 @@ Instagram does **not** update a profile's public HTML page in real time. When yo
 
 > **Bottom line:** The stats are accurate to within a reasonable window, but do not treat them as real-time. Think of them as a *recently-cached* value.
 
----
 
-### 2. 🔒 Private Profiles Don't Work
 
-This tool only works on **public Instagram profiles**. If the account is set to private, Instagram's HTML won't contain any stat data and the tool will return an error.
-
----
-
-### 3. 🤖 Instagram Anti-Scraping Measures
-
-Instagram actively tries to detect and block automated requests. If you make too many requests in a short period, Instagram may:
-
-- Return a `429 Too Many Requests` response
-- Redirect to a login page
-- Temporarily block your IP
-
-Use this tool **responsibly and sparingly**.
-
----
-
-### 4. 🌐 No Official API — Subject to Breaking
-
-This tool works by reading Instagram's **raw HTML**, not an official API. Instagram can change their page structure at any time without notice, which could break the parser. If the tool suddenly stops returning data, the HTML format likely changed.
-
----
-
-### 5. 🖥️ Requires Local Server
+### . 🖥️ Requires Local Server
 
 The frontend (`index.html`) calls `localhost:5000`. You **must** have `app.py` running on your machine for it to work. It is not a hosted web service.
 
@@ -135,9 +111,6 @@ Accepts full URLs, `@handles`, or plain usernames.
 
 ---
 
-## ⚖️ Disclaimer
-
-This project is intended for **educational and personal use only**. It does not use Instagram's official API and may violate Instagram's Terms of Service if misused. The author is not responsible for any misuse or consequences arising from the use of this tool. Use at your own risk.
 
 ---
 
